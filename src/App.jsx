@@ -3,7 +3,8 @@ import { Link, Route, Routes } from 'react-router-dom'
 import './App.css'
 import Home from './views/Home'
 import Contact from './views/Contact'
-import Styleguide from './views/Styleguide'
+import Styleguide from './src/styleguide/Styleguide'
+import Button from './src/button/Button'
 
 function App() {
  

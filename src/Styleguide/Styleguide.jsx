@@ -1,5 +1,6 @@
-import Nav from '../component/Styleguide/Nav'
+import Nav from './Nav'
 import './style.scss'
+import Button from './component/button/Button'
 
 export default function Styleguide() {
     return <>
