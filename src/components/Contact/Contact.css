@@ -1,7 +1,7 @@
 .contact__img {
     border-radius: 100%;
-    width: 40px;
-    height: 40px;
+    width: var(--contact-img-size, 40px);
+    height: var(--contact-img-size, 40px);
     object-fit: cover;
 }
 
@@ -14,5 +14,6 @@
 }
 
 .contact__text {
+    color: var(--contact-text, red);
     margin: 0;
 }

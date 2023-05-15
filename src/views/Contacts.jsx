@@ -15,7 +15,7 @@ function Contacts() {
 
     return <div>
         <h1>Lista de contactos</h1>
-        {data.map(item => <Contact img={item.img} name={item.name} icon={item.messages[0]}/>)}
+        {data.map(item => <Contact extraClass={item.featured ? 'xl' : 'l'} img={item.img} name={item.name} icon={item.messages[0]}/>)}
     </div>
 }
 

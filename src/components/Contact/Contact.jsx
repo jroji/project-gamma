@@ -7,7 +7,7 @@ function Contact(props) {
         </div>
         <div>
             <strong>{ props.name }</strong>
-            <p className="contact__text"> { props.icon }</p>
+            <p className={'contact__text ' + (props.extraClass || '')}> { props.icon }</p>
         </div>
     </div>
 }

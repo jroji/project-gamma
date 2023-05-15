@@ -12,3 +12,13 @@ a {
 html {
   --spacing: 8px;
 }
+
+.nav {
+  flex-direction: column;
+  background: white;
+  display: flex;
+}
+
+.background-red {
+  background-color: red;
+}
