@@ -1,8 +1,8 @@
-import { Link, Route, Routes } from 'react-router-dom'
-
+import { Route, Routes } from 'react-router-dom'
 import './App.css'
-import Home from './views/Home'
-import Contact from './views/Contact'
+import Contacts from './views/Contacts'
+import Settings from './views/Settings'
+import Chat from './views/Chat/Chat'
 
 function App() {
 
@@ -10,13 +10,12 @@ function App() {
     <>
     <header>
       <h1>Proyecto Gamma</h1>
-      <Link to="/contact">Contacto</Link>
-      <Link to="/">Home</Link>
     </header>
     <main>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/" element={<Contacts />} />
+        <Route path="/chat/:perrete" element={<Chat />} />
+        <Route path="/settings" element={<Settings />} />
       </Routes>
     </main>
     </>

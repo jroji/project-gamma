@@ -1,0 +1,45 @@
+[
+    {
+        "img": "http://placekitten.com/300/300",
+        "name": "Pedro",
+        "icon": "🎂",
+        "messages": [
+            "Hola como estas, hoy he ido al cine",
+            "Está bien la cosa, ta barato"
+        ]
+    },
+    {
+        "img": "http://placekitten.com/300/300",
+        "name": "Maria",
+        "icon": "📆",
+        "messages": [
+            "Hola como estas, hoy he ido al cine",
+            "Está bien la cosa, ta barato"
+        ]
+    },
+    {
+        "img": "http://placekitten.com/300/300",
+        "name": "Celia",
+        "icon": "🔥",
+        "messages": [
+            "Está bien la cosa, ta barato",
+            "Hola como estas, hoy he ido al cine"
+        ]
+    },
+    {
+        "img": "http://placekitten.com/300/300",
+        "name": "Seok",
+        "icon": "👋🏼",
+        "messages": [
+            "Adios"
+        ]
+    },
+    {
+        "img": "http://placekitten.com/300/300",
+        "name": "Jon",
+        "icon": "👮🏼‍♀️",
+        "messages": [
+            "Viva er javascrí"
+        ]
+    }
+]

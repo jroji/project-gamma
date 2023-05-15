@@ -1,7 +1,14 @@
 header {
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   background-color: lightpink;
+  display: flex;
+  gap: 5px;
+}
+
+a {
+  color: black;
+}
+
+html {
+  --spacing: 8px;
 }
