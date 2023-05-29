@@ -1,0 +1,15 @@
+.btn {
+    padding: 12px;
+    color: black;
+}
+
+.btn.btn-primary {
+    background-color: var(--color-primary, #D9D9D9);
+}
+.btn.btn-secondary {
+    background-color: var(--color-secondary, #FFBCBC);
+}
+.btn.btn-ternary {
+    background-color: var(--color-secondary, #FFBCBC);
+    border-radius: 100%;
+}
